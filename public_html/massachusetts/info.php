@@ -1,0 +1,11 @@
+<?php
+   $timeZone = 3;
+   $queryPeriod = 12;
+   $dbServer = 'localhost';
+   $cityId = 'massachusetts';
+   $dbUser = 'unibus13';
+   $dbPass = 'unibus1.3';
+   $dbName = 'unibus13_massachusetts';
+   $cityName = 'Massachusetts';
+   $agencyName = 'Mass-EOT';
+?>
