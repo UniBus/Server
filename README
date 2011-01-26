@@ -1,0 +1,13 @@
+~/public_html (PHP)
+  * Includes all PHP code for server
+  
+~/data_management (Python)
+  * Ports GTFS data into mysql db  
+  * Create small stop and route info sqlite db for mobile (shipped with app, or patched via download)
+  * Create offline sqlite db for mobile (to download)
+  
+~/private_html (HTML/PHP)
+  * Include some rough document about setup,
+  * And some test pages.
+  
+
