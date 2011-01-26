@@ -1,0 +1,6 @@
+echo
+echo "=============================================================================="
+echo "                  Import stop/route into mobile database                      "
+echo "=============================================================================="
+../modules/AdjustMobileDB.py --version=1.3 ./updates/$1.sqlite ../data/$1 bus_$1
+

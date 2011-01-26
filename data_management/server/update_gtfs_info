@@ -1,0 +1,6 @@
+echo
+echo "=============================================================================="
+echo "                  Import Feed Data into Server database                       "
+echo "=============================================================================="
+../modules/UpdateGTFSInfoOnServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=gtfs_info_v13 ./supportedcities.lst
+

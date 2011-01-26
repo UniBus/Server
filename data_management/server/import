@@ -1,0 +1,6 @@
+echo
+echo "=============================================================================="
+echo "                  Import Feed Data into Server database                       "
+echo "=============================================================================="
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_$1 ../data/$1
+

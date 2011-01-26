@@ -1,0 +1,6 @@
+echo
+echo "=============================================================================="
+echo "                  Import Feed Data into Server database                       "
+echo "=============================================================================="
+../modules/UpdateGTFSInfoOnMobileDB.py  --version=1.3 ./updates/gtfs_info.sqlite ./supportedcities.lst
+

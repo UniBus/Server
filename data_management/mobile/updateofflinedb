@@ -1,0 +1,6 @@
+echo
+echo "=============================================================================="
+echo "                  Import stop/route into mobile database                      "
+echo "=============================================================================="
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-$1.sqlite ../data/$1
+

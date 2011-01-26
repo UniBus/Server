@@ -1,0 +1,17 @@
+echo
+echo "=============================================================================="
+echo "                  Purify GTFS Feed Data: (frequencies-related)                "
+echo "=============================================================================="
+../modules/PurifyStopTimes.py ../data/massachusetts/vta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/railrapidboat_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/pvta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/mwrta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/mvrta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/mbta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/mart_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/lrta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/lexpress_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/frta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/ccrta_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/cata_google_transit
+../modules/PurifyStopTimes.py ../data/massachusetts/brta_google_transit

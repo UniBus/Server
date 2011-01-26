@@ -1,0 +1,19 @@
+echo
+echo "=============================================================================="
+echo "                  Import stop/route into mobile database                      "
+echo "=============================================================================="
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massvta.sqlite ../data/massachusetts/vta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massrailrapidboat.sqlite ../data/massachusetts/railrapidboat_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-masspvta.sqlite ../data/massachusetts/pvta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massmwrta.sqlite ../data/massachusetts/mwrta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massmvrta.sqlite ../data/massachusetts/mvrta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massmbta.sqlite ../data/massachusetts/mbta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massmart.sqlite ../data/massachusetts/mart_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-masslrta.sqlite ../data/massachusetts/lrta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-masslexpress.sqlite ../data/massachusetts/lexpress_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massfrta.sqlite ../data/massachusetts/frta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massccrta.sqlite ../data/massachusetts/ccrta_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-masscata.sqlite ../data/massachusetts/cata_google_transit
+../modules/GenerateOfflineDB.py --version=1.3 ./offlinedb/ol-massbrta.sqlite ../data/massachusetts/brta_google_transit
+
+

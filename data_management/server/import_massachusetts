@@ -1,0 +1,18 @@
+echo
+echo "=============================================================================="
+echo "                  Import Feed Data into Server database                       "
+echo "=============================================================================="
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massvta ../data/massachusetts/vta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massrailrapidboat ../data/massachusetts/railrapidboat_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_masspvta ../data/massachusetts/pvta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massmwrta ../data/massachusetts/mwrta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massmvrta ../data/massachusetts/mvrta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massmbta ../data/massachusetts/mbta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massmart ../data/massachusetts/mart_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_masslrta ../data/massachusetts/lrta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_masslexpress ../data/massachusetts/lexpress_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massfrta ../data/massachusetts/frta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massccrta ../data/massachusetts/ccrta_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_masscata ../data/massachusetts/cata_google_transit
+../modules/UpdateGTFSFeedToServer.py --host=localhost --user=unibus13 --passwd=unibus1.3 --dbname=unibus13_massbrta ../data/massachusetts/brta_google_transit
+

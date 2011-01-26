@@ -1,0 +1,9 @@
+echo
+echo "=============================================================================="
+echo "                  Import stop/route into mobile database                      "
+echo "=============================================================================="
+../modules/GenerateMobileDB.py --version=1.3 ./updates/sanfrancisco.sqlite ../data/sanfrancisco/bart
+../modules/AppendToMobileDB.py --version=1.3 ./updates/sanfrancisco.sqlite ../data/sanfrancisco/caltrain
+../modules/AppendToMobileDB.py --version=1.3 ./updates/sanfrancisco.sqlite ../data/sanfrancisco/muni 
+../modules/AppendToMobileDB.py --version=1.3 ./updates/sanfrancisco.sqlite ../data/sanfrancisco/sfbay bus_sanfrancisco
+

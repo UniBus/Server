@@ -1,0 +1,4 @@
+./updatecitydb vancouver >./logs/20110108-update-vancouver.log
+
+./updateofflinedb vancouver >./logs/20110108-update-vancouver.log
+

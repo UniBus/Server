@@ -1,0 +1,18 @@
+echo
+echo "=============================================================================="
+echo "                  Import stop/route into mobile database                      "
+echo "=============================================================================="
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massvta.sqlite ../data/massachusetts/vta_google_transit unibus13_massvta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massrailrapidboat.sqlite ../data/massachusetts/railrapidboat_google_transit unibus13_massrailrapidboat
+../modules/GenerateMobileDB.py --version=1.3 ./updates/masspvta.sqlite ../data/massachusetts/pvta_google_transit unibus13_masspvta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massmwrta.sqlite ../data/massachusetts/mwrta_google_transit unibus13_massmwrta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massmvrta.sqlite ../data/massachusetts/mvrta_google_transit unibus13_massmvrta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massmbta.sqlite ../data/massachusetts/mbta_google_transit unibus13_massmbta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massmart.sqlite ../data/massachusetts/mart_google_transit unibus13_massmart
+../modules/GenerateMobileDB.py --version=1.3 ./updates/masslrta.sqlite ../data/massachusetts/lrta_google_transit unibus13_masslrta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/masslexpress.sqlite ../data/massachusetts/lexpress_google_transit unibus13_masslexpress
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massfrta.sqlite ../data/massachusetts/frta_google_transit unibus13_massfrta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massccrta.sqlite ../data/massachusetts/ccrta_google_transit unibus13_massccrta
+../modules/GenerateMobileDB.py --version=1.3 ./updates/masscata.sqlite ../data/massachusetts/cata_google_transit unibus13_masscata
+../modules/GenerateMobileDB.py --version=1.3 ./updates/massbrta.sqlite ../data/massachusetts/brta_google_transit unibus13_massbrta
+
