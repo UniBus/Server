@@ -1,0 +1,7 @@
+AuthType Basic
+AuthUserFile /home/TransitWorkspace/home/develop/.htpasswd
+AuthName "Development Page"
+require valid-user
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html
+

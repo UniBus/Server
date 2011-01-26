@@ -1,0 +1,16 @@
+if [ $# -eq 0 ]
+then
+	echo "$0 : You must give/supply a version"
+	exit 1
+fi
+
+rm cities.html
+rm random.html
+rm test.html
+rm -r php
+
+ln -s ./ver$1/cities.html cities.html
+ln -s ./ver$1/random.html random.html
+ln -s ./ver$1/test.html test.html
+ln -s ./ver$1/php php
+
